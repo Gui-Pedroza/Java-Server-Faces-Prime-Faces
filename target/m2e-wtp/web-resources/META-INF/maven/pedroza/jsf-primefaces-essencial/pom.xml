@@ -15,6 +15,14 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.jboss.weld.servlet</groupId>
+			<artifactId>weld-servlet-core</artifactId>
+			<version>5.1.0.Final</version>
+			<scope>compile</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>javax.faces-api</artifactId>
@@ -46,7 +54,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>6.2.5.Final</version>		
+			<version>6.2.5.Final</version>
 			<scope>compile</scope>
 		</dependency>
 
